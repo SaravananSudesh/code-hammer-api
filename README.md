@@ -1,9 +1,17 @@
-# CodeHammer API
+# Cars API
+Get information of all "Indian Cars"
 
-### For Java
-$\color{#0969DA}\textsf{POST}$ <code>/api/java/</code><br/>
-Body : code
+# **Requirements :**
+```sh
+npm install --save express
+npm install --save cors
+npm install --save axios
+npm install --save cheerio
+```
 
-### For Python
-$\color{#0969DA}\textsf{POST}$ <code>/api/python/</code><br/>
-Body : code
+# **API :**
+| **Function** | **Type** | **API Url** |
+| ------ | ------ | ------ |
+| **Get All Brands Name** | $\color{#09da60}\textsf{GET}$  | /api/brands/getAllBrandsName |
+| **Get All Cars By Brand** | $\color{#09da60}\textsf{GET}$ |  /api/cars/getCarsByBrand/&lt;brand&gt; |
+| **Get All Cars Details** | $\color{#09da60}\textsf{GET}$ |  /api/cars/getCarsByBrand/&lt;brand&gt;/&lt;car&gt; |
